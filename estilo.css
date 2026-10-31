@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #52616b;
+    line-height: 1.6;
+}
+
+.container {
+    width: 88%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ENCABEZADO */
+
+header {
+    background: #354b59;
+    color: white;
+}
+
+.menu,
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    color: white;
+    font: italic bold 24px Georgia;
+}
+
+.logo span {
+    color: #8acbd0;
+}
+
+nav {
+    display: flex;
+    gap: 22px;
+}
+
+nav a {
+    color: white;
+    font-size: 12px;
+}
