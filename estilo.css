@@ -57,3 +57,176 @@ nav a {
     color: white;
     font-size: 12px;
 }
+
+nav a:hover {
+    color: #8acbd0;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 50px;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.hero h1 {
+    font-size: 33px;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+.hero p {
+    color: #c5d0d5;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.hero small {
+    color: #8acbd0;
+    letter-spacing: 2px;
+}
+
+.phone {
+    width: 190px;
+    height: 215px;
+    margin: auto;
+    background: linear-gradient(145deg, #303c44, #18242c);
+    border: 6px solid #151b20;
+    border-radius: 28px 28px 0 0;
+    text-align: center;
+    padding-top: 75px;
+    box-shadow: 0 0 0 2px #71808a;
+}
+
+.phone span {
+    font-size: 40px;
+    color: #80b3c7;
+}
+
+.phone h3 {
+    color: white;
+}
+
+.phone p {
+    color: #a9bdc6;
+    font-size: 9px;
+}
+
+.btn,
+.small-btn {
+    background: #399bd1;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    padding: 9px 18px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 20px;
+    margin: 12px 8px 15px 0;
+}
+
+.work {
+    color: white;
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+.btn:hover,
+.small-btn:hover {
+    background: #267eae;
+}
+
+/* BARRA */
+
+.topic-bar {
+    background: #eee;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.topics {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.topics span {
+    color: #929da2;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* SECCIONES */
+
+section {
+    padding: 45px 0;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.heading h2 {
+    font-size: 23px;
+}
+
+.heading p,
+.card p {
+    color: #9ba5aa;
+    font-size: 12px;
+}
+
+/* TARJETAS */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    text-align: center;
+}
+
+.icon {
+    width: 85px;
+    height: 85px;
+    border: 2px solid #819ba9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #819ba9;
+    margin: auto auto 12px;
+}
+
+.card h3 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.card p {
+    font-size: 10px;
+    margin: 7px 0 13px;
+}
+
+.small-btn {
+    padding: 7px 17px;
+}
+
+.extra {
+    display: none;
+    background: #edf4f7;
+    padding: 12px;
+    margin-top: 12px;
+    font-size: 11px;
+    border-radius: 4px;
+}
